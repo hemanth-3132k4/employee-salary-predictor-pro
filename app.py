@@ -12,42 +12,17 @@ st.set_page_config(page_title="Employee Salary Predictor", layout="centered")
 
 st.markdown("""
     <style>
-        /* Background color */
-        .stApp {
-            background-color: #e0f7fa;
-        }
-
-        /* Button style */
+        .stApp { background-color: #e8f5e9; }
         .stButton > button {
-            background-color: #0288d1;
+            background-color: #388e3c;
             color: white;
             border-radius: 5px;
         }
-
-        /* General text */
-        html, body, [class*="css"] {
-            color: #212121;
-            font-family: 'Segoe UI', sans-serif;
-        }
-
-        h1, h2, h3, h4, h5 {
-            color: #212121 !important;
-        }
-
-        /* Input text: selectbox, sliders, inputs */
-        input, .stSelectbox div span, .stNumberInput input {
-            color: #212121 !important;
-        }
-
-        /* Fix slider number (SVG text inside the handle) */
-        svg text {
-            fill: #212121 !important;
-        }
-
-        /* Optional: soften slider rail bg */
-        .stSlider > div > div > div {
-            background-color: #b2ebf2 !important;
-        }
+        html, body, [class*="css"] { color: #1b5e20; font-family: 'Segoe UI', sans-serif; }
+        h1, h2, h3, h4, h5 { color: #1b5e20 !important; }
+        input, .stSelectbox div span, .stNumberInput input { color: #1b5e20 !important; }
+        svg text { fill: #1b5e20 !important; }
+        .stSlider > div > div > div { background-color: #c8e6c9 !important; }
     </style>
 """, unsafe_allow_html=True)
 
