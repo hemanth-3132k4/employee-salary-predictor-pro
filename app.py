@@ -24,6 +24,25 @@ st.markdown("""
             color: #3e4c4a;
             font-family: 'Segoe UI', sans-serif;
         }
+        * {
+        color: #1a1a1a !important;
+    }
+
+    .stTextInput > div > div > input,
+    .stSelectbox div div div span,
+    .stSlider > div > div > div,
+    .stNumberInput input,
+    .stMarkdown p {
+        color: #1a1a1a !important;
+    }
+
+    .css-pxxe24, .css-1offfwp, .css-1rs6os, .css-ffhzg2 {
+        color: #1a1a1a !important;
+    }
+
+    svg text {
+        fill: #1a1a1a !important;
+    }
         h1, h2, h3, h4, h5 {
             color: #3e4c4a !important;
         }
