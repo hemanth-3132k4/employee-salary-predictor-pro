@@ -9,32 +9,32 @@ import base64
 
 # Page settings
 st.set_page_config(page_title="Employee Salary Predictor", layout="centered")
-
 st.markdown("""
     <style>
-        .stApp { background-color: #1c0b00; }
+        .stApp { background-color: #0d1021; }
         .stButton > button {
-            background-color: #f57c00;
-            color: black;
+            background-color: #7f00ff;
+            color: white;
             border-radius: 5px;
         }
         html, body, [class*="css"] {
-            color: #ffe0b2;
+            color: #80d8ff;
             font-family: 'Segoe UI', sans-serif;
         }
         h1, h2, h3, h4, h5 {
-            color: #ffe0b2 !important;
+            color: #80d8ff !important;
         }
         input, .stSelectbox div span, .stNumberInput input {
-            color: #ffe0b2 !important;
-            background-color: #311400;
+            color: #80d8ff !important;
+            background-color: #1a1b3a;
         }
-        svg text { fill: #ffe0b2 !important; }
+        svg text { fill: #80d8ff !important; }
         .stSlider > div > div > div {
-            background-color: #ff9800 !important;
+            background-color: #651fff !important;
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 
