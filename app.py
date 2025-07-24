@@ -13,14 +13,14 @@ st.set_page_config(page_title="Employee Salary Predictor", layout="centered")
 st.markdown("""
     <style>
         .stApp {
-            background-color: #fffde7;
+            background-color: #e3f2fd;
         }
         .stButton > button {
-            background-color: #fbc02d;
-            color: black;
+            background-color: #1565c0;
+            color: white;
         }
-        .css-1v3fvcr, .css-1d391kg, h1, h2, h3, h4 {
-            color: #3e2723;
+        .css-1v3fvcr, .css-1d391kg, h1, h2, h3 {
+            color: #0d47a1;
         }
     </style>
 """, unsafe_allow_html=True)
