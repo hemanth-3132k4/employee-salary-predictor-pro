@@ -9,12 +9,13 @@ import base64
 
 # Page settings
 st.set_page_config(page_title="Employee Salary Predictor", layout="centered")
+
 st.markdown("""
     <style>
-        .stApp { background-color: #2e003e; }
+        .stApp { background-color: #1a0033; }
         .stButton > button {
-            background-color: #ab47bc;
-            color: white;
+            background-color: #d500f9;
+            color: black;
             border-radius: 5px;
         }
         html, body, [class*="css"] {
@@ -24,28 +25,15 @@ st.markdown("""
         h1, h2, h3, h4, h5 { color: #f3e5f5 !important; }
         input, .stSelectbox div span, .stNumberInput input {
             color: #f3e5f5 !important;
-            background-color: #43005f;
+            background-color: #33004d;
         }
         svg text { fill: #f3e5f5 !important; }
         .stSlider > div > div > div {
-            background-color: #ce93d8 !important;
+            background-color: #aa00ff !important;
         }
     </style>
 """, unsafe_allow_html=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 st.markdown("<h1 style='text-align:center;color:#4A90E2;'>💼 Employee Salary Predictor </h1>", unsafe_allow_html=True)
 st.markdown("#### <i>By BAIROLLU HEMANTH KUMAR</i>", unsafe_allow_html=True)
 
