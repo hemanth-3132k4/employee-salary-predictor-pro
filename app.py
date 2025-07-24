@@ -13,17 +13,18 @@ st.set_page_config(page_title="Employee Salary Predictor", layout="centered")
 st.markdown("""
     <style>
         .stApp {
-            background-color: #e8f5e9;
+            background-color: #fffde7;
         }
         .stButton > button {
-            background-color: #43a047;
-            color: white;
+            background-color: #fbc02d;
+            color: black;
         }
         .css-1v3fvcr, .css-1d391kg, h1, h2, h3, h4 {
-            color: #1b5e20;
+            color: #3e2723;
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 st.markdown("<h1 style='text-align:center;color:#4A90E2;'>💼 Employee Salary Predictor </h1>", unsafe_allow_html=True)
 st.markdown("#### <i>By BAIROLLU HEMANTH KUMAR</i>", unsafe_allow_html=True)
