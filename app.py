@@ -10,17 +10,24 @@ import base64
 # Page settings
 st.set_page_config(page_title="Employee Salary Predictor", layout="centered")
 
-# 🔧 Custom CSS for background and styling
 st.markdown("""
     <style>
-        body {
-            background-color: #e3f2fd;  /* Light gray */
-        }
         .stApp {
             background-color: #e3f2fd;
         }
+        .css-18e3th9 {
+            background-color: #e3f2fd;
+        }
+        .css-1d391kg, .css-1v3fvcr {
+            color: #0d1b2a;
+        }
+        .stButton>button {
+            background-color: #1976d2;
+            color: white;
+        }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 st.markdown("<h1 style='text-align:center;color:#4A90E2;'>💼 Employee Salary Predictor </h1>", unsafe_allow_html=True)
