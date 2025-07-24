@@ -12,39 +12,50 @@ st.set_page_config(page_title="Employee Salary Predictor", layout="centered")
 
 st.markdown("""
     <style>
+        /* Background */
         .stApp {
-            background-color: #e8ede7;
+            background-color: #f7f0d6;
         }
-        .stButton>button {
-            background-color: #6d9773;
+
+        /* Buttons */
+        .stButton > button {
+            background-color: #a1887f;
             color: white;
             border-radius: 5px;
         }
+
+        /* Text Overrides */
         html, body, [class*="css"] {
-            color: #3e4c4a;
+            color: #4e342e;
             font-family: 'Segoe UI', sans-serif;
         }
-        * {
-        color: #1a1a1a !important;
-    }
 
-    .stTextInput > div > div > input,
-    .stSelectbox div div div span,
-    .stSlider > div > div > div,
-    .stNumberInput input,
-    .stMarkdown p {
-        color: #1a1a1a !important;
-    }
-
-    .css-pxxe24, .css-1offfwp, .css-1rs6os, .css-ffhzg2 {
-        color: #1a1a1a !important;
-    }
-
-    svg text {
-        fill: #1a1a1a !important;
-    }
         h1, h2, h3, h4, h5 {
-            color: #3e4c4a !important;
+            color: #4e342e !important;
+        }
+
+        /* Force universal dark text */
+        * {
+            color: #1a1a1a !important;
+        }
+
+        /* Inputs, dropdowns, number fields */
+        .stTextInput > div > div > input,
+        .stSelectbox div div div span,
+        .stSlider > div > div > div,
+        .stNumberInput input,
+        .stMarkdown p {
+            color: #1a1a1a !important;
+        }
+
+        /* Specific to Streamlit core + charts + sliders */
+        .css-pxxe24, .css-1offfwp, .css-1rs6os, .css-ffhzg2 {
+            color: #1a1a1a !important;
+        }
+
+        /* ✅ Slider number fix */
+        svg text {
+            fill: #1a1a1a !important;
         }
     </style>
 """, unsafe_allow_html=True)
