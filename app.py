@@ -12,15 +12,28 @@ st.set_page_config(page_title="Employee Salary Predictor", layout="centered")
 
 st.markdown("""
     <style>
+        /* Background */
         .stApp {
             background-color: #e3f2fd;
         }
-        .stButton > button {
+
+        /* Button Styling */
+        .stButton>button {
             background-color: #1565c0;
             color: white;
+            border: none;
+            border-radius: 5px;
         }
-        .css-1v3fvcr, .css-1d391kg, h1, h2, h3 {
+
+        /* Universal text override */
+        html, body, [class*="css"] {
             color: #0d47a1;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* Headings */
+        h1, h2, h3, h4, h5 {
+            color: #0d47a1 !important;
         }
     </style>
 """, unsafe_allow_html=True)
