@@ -8,7 +8,7 @@ from io import StringIO
 import base64
 
 # Page settings
-st.set_page_config(page_title="Salary Predictor Pro", layout="centered")
+st.set_page_config(page_title="Employee Salary Predictor", layout="centered")
 
 # 🔧 Custom CSS for background and styling
 st.markdown("""
