@@ -12,29 +12,30 @@ st.set_page_config(page_title="Employee Salary Predictor", layout="centered")
 
 st.markdown("""
     <style>
-        .stApp { background-color: #0f1e13; }
+        .stApp { background-color: #1c0b00; }
         .stButton > button {
-            background-color: #4caf50;
-            color: white;
+            background-color: #f57c00;
+            color: black;
             border-radius: 5px;
         }
         html, body, [class*="css"] {
-            color: #e8f5e9;
+            color: #ffe0b2;
             font-family: 'Segoe UI', sans-serif;
         }
         h1, h2, h3, h4, h5 {
-            color: #e8f5e9 !important;
+            color: #ffe0b2 !important;
         }
         input, .stSelectbox div span, .stNumberInput input {
-            color: #e8f5e9 !important;
-            background-color: #1a3322;
+            color: #ffe0b2 !important;
+            background-color: #311400;
         }
-        svg text { fill: #e8f5e9 !important; }
+        svg text { fill: #ffe0b2 !important; }
         .stSlider > div > div > div {
-            background-color: #388e3c !important;
+            background-color: #ff9800 !important;
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 
