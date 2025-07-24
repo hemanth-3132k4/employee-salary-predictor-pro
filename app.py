@@ -10,7 +10,7 @@ import base64
 # Page settings
 st.set_page_config(page_title="Salary Predictor Pro", layout="centered")
 
-st.markdown("<h1 style='text-align:center;color:#4A90E2;'>💼 Employee Salary Predictor (Pro Edition)</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center;color:#4A90E2;'>💼 Employee Salary Predictor </h1>", unsafe_allow_html=True)
 st.markdown("#### <i>By BAIROLLU HEMANTH KUMAR</i>", unsafe_allow_html=True)
 
 # Help panel
