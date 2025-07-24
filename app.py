@@ -24,38 +24,29 @@ st.markdown("""
             border-radius: 5px;
         }
 
-        /* Text Overrides */
+        /* General text styling */
         html, body, [class*="css"] {
-            color: #4e342e;
+            color: #3e3e3e;
             font-family: 'Segoe UI', sans-serif;
         }
 
         h1, h2, h3, h4, h5 {
-            color: #4e342e !important;
+            color: #3e3e3e !important;
         }
 
-        /* Force universal dark text */
-        * {
-            color: #1a1a1a !important;
+        /* Input widgets */
+        input, .stSelectbox div span, .stNumberInput input {
+            color: #3e3e3e !important;
         }
 
-        /* Inputs, dropdowns, number fields */
-        .stTextInput > div > div > input,
-        .stSelectbox div div div span,
-        .stSlider > div > div > div,
-        .stNumberInput input,
-        .stMarkdown p {
-            color: #1a1a1a !important;
-        }
-
-        /* Specific to Streamlit core + charts + sliders */
-        .css-pxxe24, .css-1offfwp, .css-1rs6os, .css-ffhzg2 {
-            color: #1a1a1a !important;
-        }
-
-        /* ✅ Slider number fix */
+        /* Fix slider number visibility (svg text inside thumb) */
         svg text {
-            fill: #1a1a1a !important;
+            fill: #3e3e3e !important;
+        }
+
+        /* Optional: lighten slider background */
+        .stSlider > div > div > div {
+            background-color: #d8cfc0 !important;
         }
     </style>
 """, unsafe_allow_html=True)
